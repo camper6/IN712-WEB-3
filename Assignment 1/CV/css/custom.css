@@ -1,9 +1,13 @@
-div {
-  padding: 10px;
+body {
+background-image: url('../img/congruent_pentagon/congruent_pentagon.png');
 }
 
 div.shadow {
-  box-shadow: 5px 5px 5px #888888;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  opacity: 0.9;
+  box-shadow: 5px 5px 5px 5px #888888;
 }
 
 h2:hover {
