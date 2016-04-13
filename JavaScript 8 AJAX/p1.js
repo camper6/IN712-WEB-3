@@ -7,7 +7,7 @@ function ajaxRequest() {
       if (atheletes[input] != undefined) {
         document.getElementById("output").innerHTML = "Are you thinking about " + input + " " + atheletes[input] + "?";
       } else {
-        document.getElementById("output").innerHTML = "Sorry, do not know that athelete."
+        document.getElementById("output").innerHTML = "Sorry, do not know that athelete.";
       }
     }
   };
